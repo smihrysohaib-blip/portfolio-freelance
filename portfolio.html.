@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de développeur web débutant : création de sites modernes et responsives.">
+    <title>Mon Portfolio | Développement Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero" id="accueil">
+        <nav class="navbar">
+            <a href="portfolio.html">Mon Portfolio</a>
+            <div>
+                <a href="#apropos">À propos</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <p>PORTFOLIO DE DÉVELOPPEMENT WEB</p>
+            <h1>Bonjour, je crée des sites web modernes.</h1>
+            <p>
+                Je suis étudiant en informatique et j'apprends à concevoir
+                des sites web élégants, responsives et faciles à utiliser.
+            </p>
+            <a class="button" href="#projets">Découvrir mes projets</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="apropos">
+            <h2>À propos de moi</h2>
+            <p>
+                Je suis étudiant en Techniques de l'informatique au Québec.
+                Je développe mes compétences en création de sites web et
+                je réalise des projets pratiques pour progresser.
+                Mon objectif est de proposer des sites adaptés aux besoins
+                des petites entreprises.
+            </p>
+        </section>
+
+        <section class="section" id="competences">
+            <h2>Mes compétences</h2>
+
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="dish-content">
+                        <h3>HTML</h3>
+                        <p>Structurer les pages web avec un code clair.</p>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="dish-content">
+                        <h3>CSS</h3>
+                        <p>Créer des designs modernes et adaptés aux mobiles.</p>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="dish-content">
+                        <h3>JavaScript</h3>
+                        <p>Ajouter progressivement des interactions aux sites.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="projets">
+            <h2>Mes projets</h2>
+
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="dish-content">
+                        <p class="dish-category">PROJET 01</p>
+                        <h3>Le Petit Bistro</h3>
+                        <p>
+                            Site vitrine de démonstration pour un restaurant,
+                            avec menu, présentation et design responsive.
+                        </p>
+                        <a class="button"
+                           href="./"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Voir le projet
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Travaillons ensemble</h2>
+            <p>
+                Vous avez besoin d'un site vitrine pour votre entreprise ?
+                Contactez-moi pour discuter de votre projet.
+            </p>
+            <p>Ajoute ici ton adresse courriel professionnelle.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Portfolio de développement web — 2026</p>
+        <p>Le Petit Bistro est un projet fictif réalisé à des fins de démonstration.</p>
+    </footer>
+
+</body>
+</html>
